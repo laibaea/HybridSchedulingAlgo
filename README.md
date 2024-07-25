@@ -1,8 +1,8 @@
 # HybridSchedulingAlgo
 <h3><b>Abstract:</b></h3>
 In this project, the scheduling algorithm defines how much CPU time must be allotted to which process and when.
-This code implements a Hybrid Shortest Job First (SJF) - Round Robin (RR) scheduling algorithm for process execution. Both the RR and SJF components of the hybrid scheduling algorithm in our code are preemptive. According to SJF, if a process with a shorter burst time is found, the current process is preempted, and the new shortest job is selected to execute next. This preempts the current process before it completes its execution. 
-According to Round Robins, each process is allowed to execute for a certain time slice (time quantum) before being preempted and allows the next process to execute. This preemption occurs even if the process has not completed its burst 
+This code implements a Hybrid Shortest Job First (SJF) - Round Robin (RR) scheduling algorithm for process execution. Both the RR and SJF components of the hybrid scheduling algorithm in the C++ code are preemptive. According to SJF, if a process with a shorter burst time is found, the current process is preempted, and the new shortest job is selected to execute next. This preempts the current process before it completes its execution. 
+According to Round Robins, each process is allowed to execute for a certain time slice (time quantum) before being preempted, and the next process is allowed to execute. This preemption occurs even if the process has not completed its burst 
 time.
 
 <h3><b>Introduction:</b></h3>
